@@ -1,0 +1,33 @@
+body{
+    height: 100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.loader{
+    height:200px;
+    width: 200px;
+    border: 12px solid #e3e3e3;
+    border-radius: 50%;
+    border-right-color: #4070f4;
+    animation: spin 1s ease infinite;
+}
+@keyframes spin{
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.container{
+    height:400px;
+    width: 500px;
+    border: 1px solid black;
+    text-align: center;
+}
+.btn{
+    width:280px;
+    height:30px;
+    background-color: blue;
+    color:white;
+    border: 1px solid grey;
+    cursor: pointer;
+}
